@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "4f7f78cb-332b-42d1-9aee-e951aecde0cd",
+		"name": "id-spring-mvn",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37395088"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookingId\":5,\r\n    \"bookingDate\":\"2024-08-27T12:40:00\",\r\n    \"passengerId\":\"5\",\r\n    \"scheduleId\":\"757\",\r\n    \"seatNumber\":7,\r\n    \"ticketCost\":650.0,\r\n    \"totalAmount\":700.0\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8069/api/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8069",
+					"path": [
+						"api",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
